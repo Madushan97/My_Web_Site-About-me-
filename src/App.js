@@ -4,6 +4,7 @@ import { BrowserRouter, Route } from 'react-router-dom'
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import { Container } from 'react-bootstrap';
+import Content from './components/Content';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
     <Navbar/>
     <main>
       <Container>
-        <h1 align='center'>Welcome to My portfolio</h1>
+        <Content/>
       </Container>
     </main>
 
