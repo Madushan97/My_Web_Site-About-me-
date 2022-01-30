@@ -19,3 +19,9 @@ code {
 main {
   min-height: 85vh;
 }
+
+.content {
+  padding-top: 200px;
+  color: aliceblue;
+  
+}

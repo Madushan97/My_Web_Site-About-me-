@@ -2,8 +2,8 @@ import React from 'react';
 
 function Content() {
   return (
-    <div>
-        <h1>Hi</h1>
+    <div className='content'>
+        <b><h1>I am Madushan Nipuna</h1></b>
     </div>
   )
 }
